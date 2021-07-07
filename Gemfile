@@ -40,10 +40,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '>= 2.18.0'
   gem 'faker'
   gem 'shoulda'
-  gem 'poltergeist', '~> 1.14.0'end
+  gem 'poltergeist', '~> 1.14.0'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
